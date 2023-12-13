@@ -9,7 +9,7 @@ const NavBar = () => {
             <Link to='/'>
             <h3>Artística Locuras</h3>
             </Link>
-            <div classname='Categories'>
+            <div className='Categories'>
                 <NavLink to={'/category/laminas'} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}></NavLink>
                 <NavLink to={'/category/folex'} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}></NavLink>
                 <NavLink to={'/category/pinceles'} className={({isActive}) => isActive ? 'ActiveOption' : 'Option' }></NavLink>
